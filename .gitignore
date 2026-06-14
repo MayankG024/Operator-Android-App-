@@ -1,0 +1,53 @@
+# ============================================================
+# Android / Gradle
+# ============================================================
+*.iml
+.gradle/
+.kotlin/
+/build/
+app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration — never commit
+local.properties
+
+# ============================================================
+# Secrets / Keys — NEVER commit
+# ============================================================
+.env
+*.jks
+*.keystore
+debug.keystore
+my-upload-key.jks
+
+# ============================================================
+# Android Studio / IntelliJ IDEA
+# ============================================================
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/deploymentTargetDropDown.xml
+/.idea/androidTestResultsUserPreferences.xml
+/.idea/.gitignore
+*.iws
+
+# ============================================================
+# OS generated files
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============================================================
+# Roborazzi screenshot test outputs (generated artifacts)
+# ============================================================
+app/src/test/snapshots/

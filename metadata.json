@@ -1,0 +1,6 @@
+{
+  "name": "Operator",
+  "description": "An AI-powered execution and accountability companion that helps you plan, focus, execute, reflect, and progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
